@@ -1,0 +1,83 @@
+body{
+
+  font-family: serif;
+  background-color: black;
+}
+.search{
+  text-align: center;
+  margin-top : 30px;
+  margin-bottom : 30px;
+
+}
+
+.search-input{
+  font-family: arial;
+  width : 70%;
+  box-sizing: border-box;
+  padding : 20px;
+  border: none;
+  background-color: #3a3a3a9d;
+  font-weight: lighter;
+  height: 50px;
+  border-radius: 5px;
+  color:white;
+  cursor: pointer;
+
+
+}
+
+.search-input:focus{
+  outline:none;
+  border:none;
+}
+.btn{
+
+  width : 15%;
+  height: 50px;
+  background-color: dodgerblue;
+  color: white;
+  font-family: sans-serif;
+  font-weight:normal;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.container .content1 p {
+    display: none;
+}
+
+.container{
+  color:white;
+  text-align: center;
+  text-transform: uppercase;
+}
+#title{
+  font-size: 25px;
+}
+.poster{
+  width: 300px;
+}
+.content1{
+  text-transform: capitalize;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-right: 100px;
+  font-style: oblique;
+}
+@media (min-width:900px) {
+  .content1{
+    margin-left: 635px;
+    margin-right: 300px;
+  }
+  .search-input{
+    width: 50%;
+  }
+  .photo{
+
+  }
+
+}
